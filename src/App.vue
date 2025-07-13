@@ -12,14 +12,15 @@ import { RouterLink } from "vue-router";
       alt="Vue Logo"
     />
     <nav>
-      <div class="btn-main">
-        <RouterLink to="/">Home Todo</RouterLink>
-      </div>
-      <div class="btn-action">
-        <RouterLink to="/create">Create Todo</RouterLink>
-      </div>
+      <RouterLink to="/">
+        <div class="btn-main">Home</div>
+      </RouterLink>
+      <RouterLink to="/create">
+        <div class="btn-action">Create</div>
+      </RouterLink>
     </nav>
   </header>
+  <router-view></router-view>
 </template>
 
 <style scoped>

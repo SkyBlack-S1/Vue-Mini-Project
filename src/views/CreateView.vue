@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <main style="color: #000">Home View</main>
+  <main style="color: #000">Create View</main>
 </template>
